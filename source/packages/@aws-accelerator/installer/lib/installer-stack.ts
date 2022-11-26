@@ -133,7 +133,7 @@ export class InstallerStack extends cdk.Stack {
     const globalRegionMap = new cdk.CfnMapping(this, 'GlobalRegionMap', {
       mapping: {
         aws: {
-          regionName: 'us-east-1',
+          regionName: 'ca-central-1',
         },
         'aws-us-gov': {
           regionName: 'us-gov-west-1',
