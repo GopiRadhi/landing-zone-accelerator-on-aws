@@ -653,7 +653,7 @@ export class GlobalConfig implements t.TypeOf<typeof GlobalConfigTypes.globalCon
    * homeRegion: &HOME_REGION us-east-1
    * ```
    */
-  readonly homeRegion: string = '';
+  readonly homeRegion: string = 'ca-central-1';
   /**
    * List of AWS Region names where accelerator will be deployed. Home region must be part of this list.
    *
