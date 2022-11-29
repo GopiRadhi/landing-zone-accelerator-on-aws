@@ -117,7 +117,7 @@ async function main() {
     const region = app.node.tryGetContext('region');
     const partition = app.node.tryGetContext('partition');
 
-    let globalRegion = 'ap-southeast-2';
+    let globalRegion = 'ca-central-1';
 
     if (partition === 'aws-us-gov') {
       cdk.Aspects.of(app).add(new GovCloudOverrides());
