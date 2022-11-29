@@ -245,7 +245,7 @@ export abstract class Accelerator {
       return;
     }
 
-    let globalRegion = 'ap-southeast-2';
+    let globalRegion = 'ca-central-1';
 
     if (props.partition === 'aws-us-gov') {
       globalRegion = 'us-gov-west-1';
