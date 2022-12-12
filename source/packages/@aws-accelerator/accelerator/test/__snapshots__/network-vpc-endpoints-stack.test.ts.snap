@@ -373,7 +373,7 @@ Object {
         "PrivateDnsEnabled": false,
         "SecurityGroupIds": Array [
           Object {
-            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD",
+            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD1",
           },
         ],
         "ServiceName": "com.amazonaws.us-east-1.ec2",
@@ -408,7 +408,7 @@ Object {
         "PrivateDnsEnabled": false,
         "SecurityGroupIds": Array [
           Object {
-            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD",
+            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD1",
           },
         ],
         "ServiceName": "com.amazonaws.us-east-1.ec2messages",
@@ -443,7 +443,7 @@ Object {
         "PrivateDnsEnabled": false,
         "SecurityGroupIds": Array [
           Object {
-            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD",
+            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD1",
           },
         ],
         "ServiceName": "com.amazonaws.us-east-1.kms",
@@ -478,7 +478,7 @@ Object {
         "PrivateDnsEnabled": false,
         "SecurityGroupIds": Array [
           Object {
-            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD",
+            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD1",
           },
         ],
         "ServiceName": "com.amazonaws.us-east-1.logs",
@@ -552,7 +552,7 @@ Object {
         "PrivateDnsEnabled": false,
         "SecurityGroupIds": Array [
           Object {
-            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD",
+            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD1",
           },
         ],
         "ServiceName": "com.amazonaws.us-east-1.ssm",
@@ -587,7 +587,7 @@ Object {
         "PrivateDnsEnabled": false,
         "SecurityGroupIds": Array [
           Object {
-            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD",
+            "Ref": "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD1",
           },
         ],
         "ServiceName": "com.amazonaws.us-east-1.ssmmessages",
@@ -606,7 +606,7 @@ Object {
       },
       "Type": "AWS::EC2::VPCEndpoint",
     },
-    "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD": Object {
+    "NetworkEndpointsVpchttpsEpSecurityGroup90D555DD1": Object {
       "Metadata": Object {
         "cdk_nag": Object {
           "rules_to_suppress": Array [
