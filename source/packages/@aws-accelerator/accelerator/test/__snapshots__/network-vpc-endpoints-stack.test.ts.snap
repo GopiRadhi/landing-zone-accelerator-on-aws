@@ -619,7 +619,7 @@ Object {
       },
       "Properties": Object {
         "GroupDescription": "Security group for interface endpoints -- https traffic",
-        "GroupName": "interface_ep_https_sg",
+        "GroupName": "interface_ep_https_sg1",
         "SecurityGroupEgress": Array [
           Object {
             "CidrIp": "127.0.0.1/32",
@@ -637,7 +637,7 @@ Object {
         "Tags": Array [
           Object {
             "Key": "Name",
-            "Value": "interface_ep_https_sg",
+            "Value": "interface_ep_https_sg1",
           },
         ],
         "VpcId": Object {
