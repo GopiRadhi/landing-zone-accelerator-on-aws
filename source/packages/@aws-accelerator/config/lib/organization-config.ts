@@ -563,7 +563,7 @@ export class OrganizationConfig implements t.TypeOf<typeof OrganizationConfigTyp
       } else if (partition === 'aws-cn') {
         organizationsClient = new AWS.Organizations({ region: 'cn-northwest-1' });
       } else {
-        organizationsClient = new AWS.Organizations({ region: 'ca-central-1' });
+        organizationsClient = new AWS.Organizations({ region: 'us-east-1' });
       }
 
       let rootId = '';
